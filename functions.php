@@ -288,3 +288,28 @@ function switch_post_type ( $old_post_type, $new_post_type ) {
         array( 'post_type' => $old_post_type )
     );
 }
+
+/* Add Additional File Types to be Uploaded in WordPress */
+
+function my_myme_types($mime_types){
+    $mime_types['svg'] = 'image/svg+xml'; //Adding svg extension
+    $mime_types['psd'] = 'image/vnd.adobe.photoshop'; //Adding photoshop files
+    return $mime_types;
+}
+add_filter('upload_mimes', 'my_myme_types', 1, 1);
+
+/**
+ * Clone the administrator user role
+ */
+
+function clone_admin_role() {
+    global $wp_roles;
+    if ( ! isset( $wp_roles ) )
+        $wp_roles = new WP_Roles();
+    
+    $adm = $wp_roles->get_role( 'administrator' );
+    
+    // Add new "Client" role with all admin capabilities
+    $wp_roles->add_role( 'client', 'Client', $adm->capabilities );
+}
+add_action( 'init', 'clone_admin_role' );
