@@ -1,0 +1,91 @@
+<templateSet group="PHP">
+  <template name="loop" value="if( have_rows('$NAME$','$PARA$') ):&#10;    while ( have_rows('$NAME$','$PARA$') ) : the_row();&#10;       echo &quot;$String$&quot;;&#10;    endwhile;&#10;endif;&#10;wp_reset_postdata();" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARA" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="String" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="im" value="$name$ = get_field('$fname$',$param$);&#10;if( !empty($name$) ): ?&gt;&#10;    &lt;img src=&quot;&lt;?php echo $name$['url']; ?&gt;&quot; alt=&quot;&lt;?php echo $name$['alt']; ?&gt;&quot; /&gt;&#10;&lt;?php endif;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fname" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="param" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="menu" value="wp_nav_menu(&#10;    array(&#10;        'menu' =&gt; false,&#10;        'theme_location' =&gt; '$Name$',&#10;        'link_before' =&gt; false,&#10;        'link_after' =&gt; false,&#10;        'menu_class' =&gt; &quot;$CLASS$&quot;,&#10;        'menu_id' =&gt; false,&#10;        'container' =&gt; false,&#10;    )&#10;);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="favi" value="$favicon=get_field('favicon','option');&#10;    if (!empty($favicon)):&#10;        echo &quot;&lt;link rel=\&quot;icon\&quot; type=\&quot;image/x-icon\&quot; href=\&quot;$favicon\&quot;&gt;&quot;;&#10;    endif;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="title" value="if (is_404()): echo &quot;Page Not Found&quot;; else: echo get_the_title(); endif; echo &quot; - &quot;.get_bloginfo();" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="gd" value="get_template_directory_uri();" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="tem" value="/*&#10;* Template Name: $TEMNAME$&#10;*&#10;* */&#10;&#10; get_header(); &#10; &#10; while(have_posts()):the_post();&#10;    the_content();&#10; endwhile&#10; &#10; get_footer();&#10; ?&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="TEMNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="tf" value="the_field('$NAME$');" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="gf" value="get_field('$NAME$');" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="gsf" value="get_sub_field('$NAME$');" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="tsf" value="the_sub_field('$NAME$');" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="post_type" value="function $funtionname$() {&#10;&#10;    $labels = array(&#10;        'name'                =&gt; _x( '$Name$', 'Post Type General Name', '$themename$' ),&#10;        'singular_name'       =&gt; _x( '$Name$', 'Post Type Singular Name', '$themename$' ),&#10;        'menu_name'           =&gt; __( '$Name$', '$themename$' ),&#10;        'parent_item_colon'   =&gt; __( 'Parent $Name$', '$themename$' ),&#10;        'all_items'           =&gt; __( 'All $Name$', '$themename$' ),&#10;        'view_item'           =&gt; __( 'View $Name$', '$themename$' ),&#10;        'add_new_item'        =&gt; __( 'Add New $Name$', '$themename$' ),&#10;        'add_new'             =&gt; __( 'Add New', '$themename$' ),&#10;        'edit_item'           =&gt; __( 'Edit $Name$', '$themename$' ),&#10;        'update_item'         =&gt; __( 'Update $Name$', '$themename$' ),&#10;        'search_items'        =&gt; __( 'Search $Name$', '$themename$' ),&#10;        'not_found'           =&gt; __( 'Not Found', '$themename$' ),&#10;        'not_found_in_trash'  =&gt; __( 'Not found in Trash', '$themename$' ),&#10;    );&#10;    &#10;    $args = array(&#10;        'label'               =&gt; __( '$Name$s', '$themename$' ),&#10;        'description'         =&gt; __( '$Name$ news and reviews', '$themename$' ),&#10;        'labels'              =&gt; $labels,&#10;        'supports'            =&gt; array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields', ),&#10;        'taxonomies'          =&gt; array( 'genres' ),&#10;        'hierarchical'        =&gt; false,&#10;        'public'              =&gt; true,&#10;        'show_ui'             =&gt; true,&#10;        'show_in_menu'        =&gt; true,&#10;        'show_in_nav_menus'   =&gt; true,&#10;        'show_in_admin_bar'   =&gt; true,&#10;        'menu_position'       =&gt; 5,&#10;        'can_export'          =&gt; true,&#10;        'has_archive'         =&gt; true,&#10;        'exclude_from_search' =&gt; false,&#10;        'publicly_queryable'  =&gt; true,&#10;        'capability_type'     =&gt; 'page',&#10;    );&#10;&#10;    register_post_type( '$Name$', $args );&#10;&#10;}&#10;add_action( 'init', '$funtionname$', 0 );" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="funtionname" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="themename" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="btn" value="$fname$=get_field('$name$',$para$);&#10;$furl$=get_field('$url$',$para$);&#10;if (!empty($fname$)&amp;&amp;!empty($furl$)):&#10;    echo &quot;&lt;a href=\&quot;$furl$\&quot;&gt;$fname$&lt;/a&gt;&quot;;&#10;endif;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="fname" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="para" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="furl" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="get_post" value="$args = array( &#10;    'post_type' =&gt; '$Name$', &#10;    'posts_per_page' =&gt; 10 &#10;);&#10;$loop = new WP_Query( $args );&#10;while ( $loop-&gt;have_posts() ) : $loop-&gt;the_post();&#10;    the_title();&#10;    echo '&lt;div class=&quot;entry-content&quot;&gt;';&#10;    the_content();&#10;    echo '&lt;/div&gt;';&#10;endwhile;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

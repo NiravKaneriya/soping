@@ -1,0 +1,206 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e4fd6b2a-4e57-40bb-9cc3-7b350f342927" name="fresh2yourdoor" url="http://ftp.fresh2yourdoor.com">
+        <fileTransfer host="ftp.fresh2yourdoor.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="6d8a0048-8165-4f21-a0fb-2410be93c3ad" name="pacificpharmausa.com" url="http://pacificpharmausa.com">
+        <fileTransfer host="pacificpharmausa.com" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="1eb07609-a211-4da1-811e-caadff88812d" name="browardslidingdoors" url="http://browardslidingdoors.com">
+        <fileTransfer host="browardslidingdoors.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="990130e7-09cb-4fd7-8ccc-028e01fcf477" name="adver@metrotenantadvisors.com" url="http://metrotenantadvisors.com">
+        <fileTransfer host="metrotenantadvisors.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="bc73a8fa-4d4b-42a4-b46a-747c8c83e40c" name="lpeplaw" url="http://160.153.63.137">
+        <fileTransfer host="160.153.63.137" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="991732d2-30d5-4a75-9696-a249fa9db4cd" name="crypto" url="http://cryptocrewuniversity.com.dream.website">
+        <fileTransfer host="cryptocrewuniversity.com.dream.website" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="c189533a-5cd0-4efe-bc11-51358033d8f6" name="canberramums" url="http://canberramums.com">
+        <fileTransfer host="canberramums.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="38a7766b-07bd-4407-a62e-70c2ca9d9a10" name="eagleautoshipping" url="http://eagleautoshipping.com">
+        <fileTransfer host="eagleautoshipping.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0eedf537-dfd8-4730-9d9c-051184166a16" name="wpcodex.xyz" url="http://wpcodex.xyz">
+        <fileTransfer host="wpcodex.xyz" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="1ffef71d-92be-47a6-9d6b-bf9eb9639751" name="sterling" url="http://sterling-lighting.com">
+        <fileTransfer host="sterling-lighting.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0a56a82f-f48c-4c5d-97dd-20dce3b7fa9c" name="service.wpcodex.xyz" url="http://service.wpcodex.xyz/cpanel">
+        <fileTransfer host="service.wpcodex.xyz" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f06cb89e-1f2b-4e7c-af44-a634ba3bcc96" name="ftptoyoursite.com" url="http://ftp3.ftptoyoursite.com">
+        <fileTransfer host="ftp3.ftptoyoursite.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="5d6ec877-28d4-4ed4-afbd-7072b5b84eb1" name="centralcoastmums" url="http://ftp.centralcoastmums.com">
+        <fileTransfer host="ftp.centralcoastmums.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="550dbcab-28e6-4538-ba70-8510e683356a" name="theclientconverter.com" url="http://theclientconverter.com">
+        <fileTransfer host="theclientconverter.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="070de694-c760-4c73-8482-aaaffb0a2048" name="fengshui.patricialohan.com" url="http://81.17.254.28">
+        <fileTransfer host="81.17.254.28" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="928d7c97-91cb-495b-a635-d065914b9508" name="hlncc" url="http://hlncc.com">
+        <fileTransfer host="hlncc.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="34819d69-d0ce-4e64-a234-36cc140787df" name="mcdevelopment" url="http://mcdevelopment.biz">
+        <fileTransfer host="mcdevelopment.biz" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="6d594f1c-694d-4f0e-9e7f-f573e987d169" name="lac-tac" url="http://148.72.202.90">
+        <fileTransfer host="148.72.202.90" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d52162f9-3f01-4dcc-ace4-9e994be63f83" name="ftp.mauricio.creativamotions.com" url="http://ftp.mauricio.creativamotions.com">
+        <fileTransfer host="ftp.mauricio.creativamotions.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d7e9da8c-b3d8-451a-ad9f-b5ac6a9dd629" name="Creativa" url="http://72.9.148.203">
+        <fileTransfer host="72.9.148.203" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="1acc0400-20e2-4497-b009-1617c9c54a89" name="firstchoicelocksmithservice" url="http://ftp.firstchoicelocksmithservice.com">
+        <fileTransfer explicitFtps="false" host="ftp.firstchoicelocksmithservice.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="85b91a75-eb07-42ff-94f0-caaa71d59146" name="dumpsquad.com" url="http://dumpsquad.com">
+        <fileTransfer host="dumpsquad.com" port="22" rootFolder="/home/dump3008360671/html/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="73857b16-c822-4548-98d5-646c15481ea7" name="ftp.hinmanlawgroup.com" url="http://hinmanlawgroup.com">
+        <fileTransfer host="hinmanlawgroup.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f4ab981e-cf3d-4142-951b-c06e65852f72" name="dumpsquad.com (1)" url="http://dumpsquad.com">
+        <fileTransfer host="dumpsquad.com" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="c6a987b1-e8b6-4f11-950a-3470957cac5d" name="rsmenterprises.in" url="http://rsmenterprises.in">
+        <fileTransfer host="rsmenterprises.in" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

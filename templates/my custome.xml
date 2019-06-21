@@ -1,0 +1,8 @@
+<templateSet group="my custome">
+  <template name="&lt;?" value="&lt;?php $code$ ?&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
