@@ -186,7 +186,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="f4ab981e-cf3d-4142-951b-c06e65852f72" name="dumpsquad.com (1)" url="http://dumpsquad.com">
-        <fileTransfer host="dumpsquad.com" port="22" accessType="SFTP">
+        <fileTransfer host="dumpsquad.com" port="22" rootFolder="/home/dump3008360671/html/" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
           </advancedOptions>
