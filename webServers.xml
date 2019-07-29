@@ -1,6 +1,70 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="cd785fed-541e-4550-930e-8b916bdb997d" name="Direct Leadz" url="http://direct-leadz.com">
+        <fileTransfer host="direct-leadz.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="38c4c879-099f-44f4-b650-35b86b220ead" name="relfo" url="http://208.91.198.55">
+        <fileTransfer host="208.91.198.55" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="b1d3725c-6495-483b-ae01-432fb27cf3f7" name="GujjuRocks" url="http://192.154.230.154">
+        <fileTransfer host="192.154.230.154" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0176ea02-e401-49dd-b2d9-e5d33580d4d9" name="houstonlightscapes.com" url="http://houstonlightscapes.com">
+        <fileTransfer host="houstonlightscapes.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="bb6929f9-4029-4642-83f9-4eaa5a1f9251" name="andres2.creativamotions.com" url="http://andres2.creativamotions.com">
+        <fileTransfer host="andres2.creativamotions.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d3ae77e5-fccc-470a-aecd-c74a3f786eaa" name="moose" url="http://ftp.devhtmlfive.com">
+        <fileTransfer host="ftp.devhtmlfive.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="fa3d87d3-c69b-4131-bd5b-84a6b5e134e4" name="50.87.153.41" url="http://50.87.153.41">
+        <fileTransfer host="50.87.153.41" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="26709587-2825-496b-a13a-c29b203cc3a6" name="corporatecomputersol" url="http://0433b0b.netsolhost.com">
+        <fileTransfer host="0433b0b.netsolhost.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
       <webServer id="e4fd6b2a-4e57-40bb-9cc3-7b350f342927" name="fresh2yourdoor" url="http://ftp.fresh2yourdoor.com">
         <fileTransfer host="ftp.fresh2yourdoor.com" port="21">
           <advancedOptions>
