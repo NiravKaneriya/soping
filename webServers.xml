@@ -266,9 +266,9 @@
         </fileTransfer>
       </webServer>
       <webServer id="1428362f-7687-4c85-bfb9-9e30ad272516" name="dev.millennialwebdevelopment.com" url="http://198.12.157.68">
-        <fileTransfer host="198.12.157.68" port="21" accessType="FTPS">
+        <fileTransfer host="198.12.157.68" port="21">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
           </advancedOptions>
           <option name="port" value="21" />
         </fileTransfer>
