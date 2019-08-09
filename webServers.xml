@@ -273,6 +273,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="ce0c0af9-eeaf-4843-9ce6-b79c6054178b" name="hubpen" url="http://198.12.157.68">
+        <fileTransfer host="198.12.157.68" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
