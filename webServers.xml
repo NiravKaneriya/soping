@@ -1,6 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="76a85271-940d-4eac-85d5-0052f5ad0074" name="cwhitman.wpengine.com" url="http://cwhitman.sftp.wpengine.com">
+        <fileTransfer host="cwhitman.sftp.wpengine.com" port="2222" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
       <webServer id="cd785fed-541e-4550-930e-8b916bdb997d" name="Direct Leadz" url="http://direct-leadz.com">
         <fileTransfer host="direct-leadz.com" port="21">
           <advancedOptions>
