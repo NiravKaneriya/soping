@@ -2,8 +2,6 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="home-template" type="PHP" />
-      <mapping pattern="test" type="PLAIN_TEXT" />
-      <mapping pattern="single-cibic.php" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
