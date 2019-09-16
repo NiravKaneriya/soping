@@ -305,6 +305,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="bc0410fd-740a-4f5a-a994-5dd87a1ca53d" name="mon-barbecue-charbon" url="http://91.121.103.164">
+        <fileTransfer host="91.121.103.164" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
